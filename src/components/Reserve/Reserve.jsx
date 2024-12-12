@@ -15,6 +15,12 @@ const Reserve = () => {
 
     const saveInfo = (e) => {
         e.preventDefault()
+        localStorage.setItem('user', JSON.stringify({
+            name: data.name,
+            email: data.email,
+            date: data.date
+        }))
+        
         setData(initialValues)
         navigate("/")
     }
