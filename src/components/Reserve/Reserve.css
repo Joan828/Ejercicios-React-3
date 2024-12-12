@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.form{
+    text-align: left;
+}
+.name, .email, .date{
+    margin: 20px 0;
+    width: 35rem;
+}
